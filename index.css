@@ -94,7 +94,7 @@ li,li>a{
  .blackPays{
     border: 2px solid black;
  }
-@media (max-width: 767.98px){
+@media (max-width: 991.98px){
     .liencv{
         display: flex;
         justify-content: center !important;
@@ -115,7 +115,7 @@ nav{
 }
 }
 
-@media (min-width: 768px) and (max-width: 4000px) {
+@media (min-width: 992px) and (max-width: 4000px) {
 .navbar-collapse{
     display: flex;
     justify-content: end;
