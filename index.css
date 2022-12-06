@@ -94,19 +94,27 @@ li,li>a{
  .blackPays{
     border: 2px solid black;
  }
-@media (min-width: 0px) and (max-width: 767.98px){
+@media (max-width: 767.98px){
     .liencv{
         display: flex;
         justify-content: center !important;
         align-items: center;
     }
 .smnone{
-    display: none;
+    display: none !important;
 }
+
 .romeImg2{
     margin-top: 1.5rem;
 }
+nav{
+    background:  rgba(74, 14, 238, 0.2);
+    text-decoration: none;
+    border-radius: 1rem;
+    
 }
+}
+
 @media (min-width: 768px) and (max-width: 4000px) {
 .navbar-collapse{
     display: flex;
@@ -125,7 +133,12 @@ li,li>a{
     justify-content: end !important;
     align-items: center;
 }
-
+nav{
+    background:  rgba(230, 18, 18, 0.2);
+    text-decoration: none;
+    border-radius: 1rem;
+    
+}
 }
 
 /*# sourceMappingURL=index.css.map */
