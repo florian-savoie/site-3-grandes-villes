@@ -88,20 +88,17 @@ li,li>a{
     background-color: rgb(35, 33, 33);
      border-radius: 50%;
  }
-@media (min-width: 400px ) and (max-width: 479px){
+@media (min-width: 0px) and (max-width: 767.98px){
     .liencv{
         display: flex;
         justify-content: center !important;
         align-items: center;
     }
-body{
-    background-color: red;
-}
-nav{
-    background-color: blue;
+.smnone{
+    display: none;
 }
 }
-@media (min-width: 480px ) and (max-width: 4000px) {
+@media (min-width: 768px) and (max-width: 4000px) {
 .navbar-collapse{
     display: flex;
     justify-content: end;
@@ -119,6 +116,7 @@ nav{
     justify-content: end !important;
     align-items: center;
 }
+
 }
 
 /*# sourceMappingURL=index.css.map */
