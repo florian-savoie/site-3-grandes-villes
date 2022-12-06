@@ -8,7 +8,7 @@ nav{
     color: rgba(0, 0, 0, 0.4);
 }
 .d-block{
-    height: 10rem;
+    height: 14rem;
     padding: 0;
 }
 .imgDoite{
@@ -18,6 +18,11 @@ nav{
 .imgGauche{
     border-bottom-left-radius: 2rem;
     border-top-left-radius: 2rem;
+}
+.logoGlob{
+    max-height: 3rem;
+    width: auto;
+    margin-left: 3rem;
 }
 .carou{
     position: relative;
@@ -72,8 +77,29 @@ li,li>a{
     margin: 0.4rem;
 }
 .blocktop{
-    background-color: rgb(212, 208, 208);
+    background-color: rgb(235, 230, 230);
     border-radius: 2rem;
+}
+.carousel-control-next-icon{
+   background-color: rgb(35, 33, 33);
+    border-radius: 50%;
+}
+.carousel-control-prev-icon{
+    background-color: rgb(35, 33, 33);
+     border-radius: 50%;
+ }
+@media (min-width: 400px ) and (max-width: 479px){
+    .liencv{
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+    }
+body{
+    background-color: red;
+}
+nav{
+    background-color: blue;
+}
 }
 @media (min-width: 480px ) and (max-width: 4000px) {
 .navbar-collapse{
@@ -88,6 +114,11 @@ li,li>a{
 .nav-link:hover{
     color: white;
 }
-
+.liencv{
+    display: flex;
+    justify-content: end !important;
+    align-items: center;
 }
+}
+
 /*# sourceMappingURL=index.css.map */
