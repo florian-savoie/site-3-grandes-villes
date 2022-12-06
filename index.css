@@ -88,6 +88,9 @@ li,li>a{
     background-color: rgb(35, 33, 33);
      border-radius: 50%;
  }
+ .lotimg{
+    padding: 3px;
+ }
 @media (min-width: 0px) and (max-width: 767.98px){
     .liencv{
         display: flex;
